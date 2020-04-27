@@ -4,14 +4,14 @@
 
 - Add the header `Store Locator`  -DONE
 
-- Add markers of stores to the map 
-1:00:00
-- Add info window with name of store to each marker
+- Add markers of stores to the map  -DONE
 
-- Add input box
+- Add info window with name of store to each marker -DONE
+
+- Add input box -DONE
 
 - Add store list container
-
+  1:34:01
 - Add individual store container
 
 - Show all the stores in the stores list using `store-data.js`
@@ -25,4 +25,15 @@
 - Add a beautiful transition on the hover of an individual store
 
 **DONE**
+
+Techstacks:
+
+-HTML
+-CSS
+-Flexbox
+-Fontawesome
+-Chrome Devtools
+-Javascript
+-Google map API Javascript
+
 

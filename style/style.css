@@ -15,11 +15,48 @@ body {
 
 .title {
     position: absolute;
-    font-size: 88px;
-    color: #333;
+    font-size: 75px;
+    color: yellow;
     text-transform: uppercase;
     z-index: 1;
     font-weight: bold;
     top: 100px;
     left: 100px;
 }
+
+.search-container {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    background-color: yellow;
+    z-index: 100;
+    top: 230px;
+    left: 100px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.search {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.search-container input {
+    flex-grow: 1;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.search i {
+    font-size: 25px;
+}
+
+
