@@ -26,7 +26,7 @@ function showStoreMarkers() {
         var name = store.name;
         var address = store.addressLines[0];
 
-        createMarker();
+        createMarker(latlng, name, address);
     })
 }
 
@@ -36,10 +36,10 @@ function createMarker(latlng, name, address) {
         map: map,
         position: latlng
     });
-    // google.maps.event.addListener(marker, 'click', function() {
-    //   infoWindow.setContent(html);
-    //   infoWindow.open(map, marker);
-    // });
+    google.maps.event.addListener(marker, 'click', function() {
+      infoWindow.setContent(html);
+      infoWindow.open(map, marker);
+    });
     markers.push(marker);
 }
 
