@@ -21,7 +21,7 @@ function showStoreMarkers() {
     stores.forEach(function (store, index) {
         var latlng = new google.maps.LatLng(
             store.coordinates.latitude,
-            store.coordinates.longtitude);
+            store.coordinates.longitude);
 
         var name = store.name;
         var address = store.addressLines[0];
