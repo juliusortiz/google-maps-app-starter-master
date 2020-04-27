@@ -5,7 +5,7 @@
 - Add the header `Store Locator`  -DONE
 
 - Add markers of stores to the map 
-55:53
+1:00:00
 - Add info window with name of store to each marker
 
 - Add input box
