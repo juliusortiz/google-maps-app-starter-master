@@ -10,14 +10,14 @@
 
 - Add input box -DONE
 
-- Add store list container
-  1:34:01
-- Add individual store container
+- Add store list container -DONE
+  
+- Add individual store container -DONE
 
-- Show all the stores in the stores list using `store-data.js`
+- Show all the stores in the stores list using `store-data.js` -DONE
 
 - Open the info window of the marker on store selection in stores list 
-
+2:19:57
 - Complete the styling for the marker info window
 
 - Allow a user to search for stores in a zip code

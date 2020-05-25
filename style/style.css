@@ -16,7 +16,7 @@ body {
 .title {
     position: absolute;
     font-size: 75px;
-    color: yellow;
+    color: #3b3b3b;
     text-transform: uppercase;
     z-index: 1;
     font-weight: bold;
@@ -28,7 +28,7 @@ body {
     position: absolute;
     width: 400px;
     height: 60px;
-    background-color: yellow;
+    background-color: #636363;
     z-index: 100;
     top: 230px;
     left: 100px;
@@ -57,6 +57,74 @@ body {
 
 .search i {
     font-size: 25px;
+    color: white;
 }
 
+.store-list-container {
+    position: absolute;
+    background: white;
+    width: 400px;
+    z-index: 100;
+    top: 320px;
+    left: 100px;
+    border-radius: 30px;
+    bottom: 20px;
+    display: flex;
+}
 
+.store-address {
+    font-size: 21px;
+    color: #514C4C;
+    margin-top: 30px;
+}
+
+.store-phone-number {
+    color: #B5ADAD;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.store-number {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: #454E53;
+    color: #B5ADAD;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.store-address span {
+    display: block;
+}
+
+.store-container-background {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.stores-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+
+.store-info-container {
+    flex-grow: 1;
+}
+
+.store-number-container {
+    display: flex;
+    align-items: center;
+}
+
+.store-container {
+    border-bottom: 1px solid #979797;
+    cursor: pointer;
+}
+
+ 
